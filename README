@@ -3,14 +3,16 @@ wifi-information-collector
 Example for using libnl for gathering WiFi stats
 
 
-local compilation:
+a) local compilation:
 use make in src/ directory
 
-for OpenWrt:
+b) for OpenWrt:
 put into package/ in openwrt buildroot
 make menuconfig
 should appear in Network -> wireless
 
 
 dependencies:
+libnl-dev
 libnl-3-dev
+libnl-genl-3-dev
