@@ -7,7 +7,7 @@ a) local compilation:
 use make in src/ directory
 
 b) for OpenWrt:
-put into package/ in openwrt buildroot
+clone into package/ in openwrt buildroot
 make menuconfig
 should appear in Network -> wireless
 
